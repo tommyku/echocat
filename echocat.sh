@@ -11,8 +11,4 @@ then
   cat $1
 fi
 
-while read line
-do
-  echo "$line" >> $1
-done
-
+cat >> $1
